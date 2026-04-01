@@ -1,15 +1,18 @@
-# Data Cleaning Project (SQL)
+# Data Cleaning using SQL
 
-## Overview
-Performed data cleaning on layoffs dataset using SQL.
+## 📊 Project Overview
+This project focuses on cleaning a real-world layoffs dataset using SQL.
 
-## Steps:
+## 🔧 Steps Performed
 - Removed duplicates using ROW_NUMBER()
-- Standardized categorical data
+- Standardized inconsistent data (industry, country, etc.)
 - Converted date formats
-- Handled NULL values using joins
+- Handled NULL values using self joins
 - Removed irrelevant records
 
-## Tools Used:
+## 🛠 Tools Used
 - MySQL
 - SQL Window Functions
+
+## 📁 Files
+- layoffs_data_cleaning.sql
